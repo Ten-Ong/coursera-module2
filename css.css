@@ -22,6 +22,7 @@ h2{
   padding: 2px 20px;
   border-bottom: 2px solid black; 
   border-left: 2px solid black; 
+  float: right;
 }
 
 p{
@@ -37,9 +38,6 @@ p{
     margin-bottom: 20px;
 }
 
-h2{
-    float: right;
-}
 
 .chicken {
     background-color: pink;
@@ -56,14 +54,17 @@ h2{
 /* large screen*/
 @media (min-width: 992px){
       
-   .main{
-      width: 99%;
-      margin: auto;
-   } 
+    .main{
+        width: 100%;
+         margin: 0 20px;
+       
+     } 
+   
     .box { 
         width: 30%;
         float: left;
         margin: 20px 20px 0 20px;
+        justify-content: center
        
     }
 
@@ -72,7 +73,7 @@ h2{
     margin-right: 0;
 }
 .box:last-child{
-    margin-right: 20px;
+    margin-right: 0px;
 }
    
 }
@@ -97,4 +98,3 @@ h2{
     width: 94%;
     margin: 20px;
 }
-
